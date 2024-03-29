@@ -79,14 +79,13 @@ fun ImageCard(
                         )
                     )
             )
-            Box(
+            Text(
+                text = title,
                 modifier = Modifier
-                    .fillMaxSize()
+                    .align(Alignment.BottomStart)
                     .padding(12.dp),
-                contentAlignment = Alignment.BottomStart
-            ) {
-                Text(title, style = TextStyle(color = Color.White, fontSize = 16.sp))
-            }
+                style = TextStyle(color = Color.White, fontSize = 16.sp)
+            )
         }
     }
 }
