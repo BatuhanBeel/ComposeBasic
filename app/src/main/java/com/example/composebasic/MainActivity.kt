@@ -19,7 +19,6 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
 
-
             LazyColumn{
                 itemsIndexed(
                     items = listOf("This", "is", "Jetpack", "Compose")
@@ -33,7 +32,6 @@ class MainActivity : ComponentActivity() {
                             .padding(vertical = 24.dp),
                         fontSize = 24.sp
                     )
-
                 }
 //  U can give item count or list both method appropriate.
 //                items(5000){
